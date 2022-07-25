@@ -1,0 +1,88 @@
+.item-list {
+    background: azure;
+    margin-top: 15px;
+    box-shadow: 8px 7px 2px 1px rgb(102 102 114 / 20%);
+    padding-bottom: 50px;
+}
+
+.item-list>p {
+    padding: 15px;
+    font-weight: bold;
+    font-size: 25px;
+    color: cadetblue;
+}
+
+.Api-item {
+    clear: both;
+    width: 88%;
+    margin: 15px auto;
+    height: 60px;
+    padding: 10px;
+    border: 1px solid;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.Api-item:hover {
+    background: wheat;
+    opacity: 0.5;
+}
+
+
+.Api-item p {
+    float: left;
+    margin-bottom: 10px;
+}
+
+.Api-item .Api-item-method {
+    height: 35px;
+    line-height: 40px;
+    padding: 0px 20px;
+    color: white;
+    font-weight: bold;
+    width: 105px;
+    text-align: center;
+    user-select: none;
+}
+
+.Api-item .Api-item-path {
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    line-height: 35px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    user-select: none;
+}
+
+.group-item {
+    width: 90%;
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+    color: #75757e;
+    cursor: pointer;
+    border-bottom: 1px solid #bbadad4d;
+    padding-bottom: 30px;
+}
+
+.group-item>i {
+    font-weight: 100;
+    font-size: 13px;
+    float: right;
+}
+
+.http-group {
+    margin-bottom: 70px;
+}
+
+.api-detail-table {
+    margin-top: 15px;
+}
+
+.api-detail-table thead tr th{
+    font-weight: 100;
+    color: #421f1f;
+    text-align: center;
+
+}

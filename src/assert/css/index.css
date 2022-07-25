@@ -1,0 +1,29 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    background: ghostwhite;
+}
+
+/* header height = 5+20+20+30 */
+
+.Empty-box {
+    height: 75px;
+    width: 100%;
+}
+
+/* 使用空的div排除被header flex挡住的区域 */
+
+.Content {
+    width: 75%;
+    margin: auto;
+}
+
+/* 主内容 */
+
+
+.clip-i {
+    float: right;
+}

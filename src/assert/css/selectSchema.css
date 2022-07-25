@@ -1,0 +1,23 @@
+.Schema {
+  border-bottom: 3px solid #e2f5f5;
+  box-shadow: 8px 7px 2px 1px rgb(102 102 114 / 20%);
+  background: azure;
+  padding: 15px 10px;
+
+}
+
+.Schema select {
+  height: 40px;
+  width: 130px;
+  text-indent: 10px;
+  border-radius: 10px;
+  user-select: none;
+
+}
+
+.Schema p {
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  padding: 10px;
+}

@@ -1,29 +1,41 @@
+@import "~antd/dist/antd.css";
+
 * {
-    padding: 0px;
-    margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 html {
-    background: ghostwhite;
+  background: ghostwhite;
 }
 
 /* header height = 5+20+20+30 */
 
 .Empty-box {
-    height: 75px;
-    width: 100%;
+  height: 75px;
+  width: 100%;
 }
 
 /* 使用空的div排除被header flex挡住的区域 */
 
 .Content {
-    width: 75%;
-    margin: auto;
+  width: 75%;
+  margin: auto;
 }
 
 /* 主内容 */
 
-
 .clip-i {
-    float: right;
+  float: right;
+}
+
+.ant-popover-placement-bottom,
+.ant-popover-placement-bottomLeft,
+.ant-popover-placement-bottomRight {
+  z-index: 100000;
+}
+.ant-popover-placement-top,
+.ant-popover-placement-topLeft,
+.ant-popover-placement-topRight {
+  z-index: 100000;
 }

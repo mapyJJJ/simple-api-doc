@@ -1,22 +1,21 @@
 header p {
-    font-size: 22px;
-    font-weight: bold;
-    text-align: left;
-    color: cadetblue;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: left;
+  color: cadetblue;
 }
 
 header p i {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 /* 版本号 */
 
 header {
-    border-bottom: 5px solid ghostwhite;
-    /* height: 30px; */
-    padding: 20px;
-    width: 100%;
-    background: #9adb36;
-    position: fixed;
-
+  border-bottom: 5px solid ghostwhite;
+  /* height: 30px; */
+  padding: 20px;
+  width: 100%;
+  background: #9adb36;
+  position: fixed;
 }

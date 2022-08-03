@@ -1,33 +1,32 @@
-import React from 'react'
-import Modal from 'react-bootstrap/Modal'
+// 模态框组（大号弹窗)
 
-function ModalTemplate (props) {
+import React from "react";
+import Modal from "react-bootstrap/Modal";
 
-  // props
-  const show = props.showModal
-  const setShow = props.setShowModal
-  const mainBody = props.body
+export default function ModalTemplate(props) {
+  const confobj = {
+    mainBody: props.body, //接受显示内容
+    show: props.showModal, // show 开关
+    title: props.modalTitle, // 标题
+    setShow: props.setShowModal,
+  };
 
-
+  // onHide 和 show 控制展示关闭
   return (
     <>
       <Modal
-        show={show}
-        onHide={() => setShow(false)}
+        show={confobj.show}
+        onHide={() => confobj.setShow(false)}
         dialogClassName="modal-90w"
         aria-labelledby="example-custom-modal-styling-title"
       >
         <Modal.Header closeButton>
           <Modal.Title id="example-custom-modal-styling-title">
-            详情
+            {confobj.title ? confobj.title : "详情"}
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body>
-          {mainBody}
-        </Modal.Body>
+        <Modal.Body>{confobj.mainBody}</Modal.Body>
       </Modal>
     </>
-  )
+  );
 }
-
-export default ModalTemplate

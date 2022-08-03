@@ -31,6 +31,7 @@
   "git.confirmSync": false,
   "editor.tabSize": 2,
   "[json]": {},
+  "editor.wordWrapColumn": 80,
   "editor.tabCompletion": "on",
   "vsicons.projectDetection.autoReload": true,
   "[html]": {
@@ -43,9 +44,7 @@
   "debug.console.fontSize": 14,
   "vsicons.dontShowNewVersionMessage": true,
   "editor.minimap.enabled": true,
-  "emmet.extensionsPath": [
-    ""
-  ],
+  "emmet.extensionsPath": [""],
   // vue eslint start 保存时自动格式化代码
   "editor.formatOnSave": true,
   // eslint配置项，保存时自动修复错误
@@ -96,5 +95,5 @@
   "git.ignoreMissingGitWarning": true,
   "window.zoomLevel": 1,
   "scm.inputFontFamily": "",
-  "editor.fontFamily": "'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
+  "editor.fontFamily": "'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'"
 }
